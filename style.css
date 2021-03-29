@@ -1,0 +1,219 @@
+html {
+  background: url("./pictures/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 1000px rgba(23, 35, 74, 0.8);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  /* 
+
+  .pop-up-name-generator-mobile {
+    @include lg-desktop {
+      display: none;
+    }
+    @include sm-desktop {
+      display: none;
+    }
+
+    @include tablet-phone {
+      width: 50px;
+      height: 30px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      color: white;
+      border-bottom: 3px solid #ffffff;
+      margin-top: 2rem;
+      margin: auto;
+      text-transform: capitalize;
+
+    }
+    @include phone {
+      width: 50px;
+      height: 30px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      color: white;
+      border-bottom: 3px solid #ffffff;
+      margin-top: 2rem;
+      margin: auto;
+      text-transform: capitalize;
+    }
+  }
+  */
+}
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 320px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+body h1, body h2, body h3, body h4, body h5, body h6, body p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-top: 0.2rem;
+  margin-bottom: 0.4rem;
+}
+body h1 {
+  font-size: 1.45rem;
+}
+@media (max-width: 768px) {
+  body h1 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+  }
+}
+@media (max-width: 320px) {
+  body h1 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+  }
+}
+body h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  body h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 320px) {
+  body h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+}
+body p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  body p {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+  }
+}
+@media (max-width: 320px) {
+  body p {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+  }
+}
+body .pop-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 30px;
+  background: white;
+  padding: 20px;
+  height: 347px;
+  width: 510px;
+}
+@media (max-width: 768px) {
+  body .pop-up {
+    margin-top: 140px;
+    height: 500px;
+    width: 275px;
+    padding: 18px;
+  }
+}
+@media (max-width: 320px) {
+  body .pop-up {
+    margin-top: 140px;
+    height: 500px;
+    width: 510px;
+    padding: 18px;
+  }
+}
+body .pop-up .pop-up-logo {
+  padding: 0;
+}
+@media (max-width: 768px) {
+  body .pop-up .pop-up-logo {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  body .pop-up .pop-up-logo {
+    display: none;
+  }
+}
+body .pop-up .pop-up-logo-mobile {
+  padding: 0;
+}
+@media (min-width: 769px) {
+  body .pop-up .pop-up-logo-mobile {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  body .pop-up .pop-up-logo-mobile {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  body .pop-up .pop-up-logo-mobile {
+    margin-top: -220px;
+  }
+}
+@media (max-width: 320px) {
+  body .pop-up .pop-up-logo-mobile {
+    margin-top: -220px;
+  }
+}
+body button {
+  border: #17234a;
+  background-color: #17234a;
+  color: white;
+  border-radius: 30px;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 8px 32px;
+  cursor: pointer;
+  outline: none;
+  width: fit-content;
+  height: auto;
+  margin: auto;
+}
+body .pop-up-name-generator-desktop {
+  width: 175px;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #17234a;
+  border-bottom: 1px solid #000000;
+  margin-top: 0.2rem;
+  margin: auto;
+  text-transform: capitalize;
+  /*     @include tablet-phone {
+      display: none;
+      }
+    @include phone {
+      display: none;
+    }
+    */
+}
+
+/*# sourceMappingURL=style.css.map */
